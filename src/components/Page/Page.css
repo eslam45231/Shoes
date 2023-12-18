@@ -1,0 +1,22 @@
+.Page{
+    width: 100%;
+    min-height: 100vh;
+}
+.scrolltopp{
+    position: fixed;
+    bottom: 30px;
+    right: -50px;
+    background-color: red;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 50px;
+    z-index: 99999;
+    border-radius: 50%;
+    padding: 10px;
+    transition: .2s;
+}
+.activeScroll{
+
+right: 30px !important;
+}

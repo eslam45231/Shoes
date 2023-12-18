@@ -1,0 +1,94 @@
+.Proudcts{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Proudcts .box{
+    width: 20%;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px;
+    position: relative;
+}
+.layout{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+.boxesLay{
+    width: 100%;
+    height: 100%;
+    top: 30px;
+    left: -39%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 15px;transform: translateX(-40px);
+    opacity: 0;
+    transition: .3s;
+}
+.Proudcts .box:hover .boxesLay{
+    transform: translateX(0px) !important;
+    opacity: 1;
+}
+.boxesLay p{
+    background-color: red;
+    color: black;
+    padding: 7px ;
+    color: white;
+}
+.Proudcts .box h1{
+    text-transform: capitalize;
+}
+.Proudcts .box img{
+    width: 70%;
+}
+.Proudcts .box button{
+    background: rgb(223,16,166);
+background: linear-gradient(90deg, rgba(223,16,166,1) 35%, rgba(212,20,239,1) 100%);
+color: white;
+text-transform: capitalize;
+border: none;
+padding: 10px 30px;
+transform: translateY(100%);
+opacity: 0;
+transition: .3s;
+}
+
+.Proudcts .box:hover button{
+    transform: translateY(0px) !important;
+    opacity: 1;
+}
+
+@media(max-width:1000px){
+    .Proudcts .box{
+        width: 30%;
+    }
+}
+
+@media(max-width:767px){
+    .Proudcts .box{
+        width: 45%;
+    }
+}
+
+@media(max-width:520px){
+    .Proudcts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Proudcts .box{
+        width: 80%;
+    }
+}

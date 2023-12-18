@@ -1,0 +1,57 @@
+.ListMob{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: red;
+    width: 70%;
+    transform: translateX(100%);
+transition: .3s;
+    z-index: 99;
+}
+.activeList{
+    transform: translateX(0);
+}
+.ListMob ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: rebeccapurple;
+    text-transform: capitalize;
+    list-style: none;
+    font-size: 20px;
+    color: white;
+}
+.barsMob{
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    
+cursor: pointer;
+}
+.barsMob span{
+    width: 50px;
+    transform-origin: left;
+    height: 11px;
+    background-color: aliceblue;
+    margin: 3px;
+}
+.barsMob span:first-child{
+    transform: rotate(45deg);
+}
+.barsMob span:last-child{
+    transform: rotate(-45deg);
+
+}
+.barsMob span:nth-child(2){
+    opacity: 0;
+}
+
+.ListMob ul li{
+    padding: 10px 0;
+
+}
