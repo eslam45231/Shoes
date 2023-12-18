@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Shoes/static/css/main.7900fcfa.css",
+    "main.js": "/Shoes/static/js/main.39323f3f.js",
+    "static/media/fa-solid-900.ttf": "/Shoes/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/fa-brands-400.ttf": "/Shoes/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/Shoes/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/fa-brands-400.woff2": "/Shoes/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/fa-regular-400.ttf": "/Shoes/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/fa-regular-400.woff2": "/Shoes/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/download.jpeg": "/Shoes/static/media/download.a5e9f161e5dc8f2eaeb1.jpeg",
+    "static/media/OIP (1).jpeg": "/Shoes/static/media/OIP (1).24847a6ad8cc6ce3a42c.jpeg",
+    "static/media/fa-v4compatibility.ttf": "/Shoes/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Shoes/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "index.html": "/Shoes/index.html",
+    "main.7900fcfa.css.map": "/Shoes/static/css/main.7900fcfa.css.map",
+    "main.39323f3f.js.map": "/Shoes/static/js/main.39323f3f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7900fcfa.css",
+    "static/js/main.39323f3f.js"
+  ]
+}
